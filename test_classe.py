@@ -9,7 +9,7 @@ def classe():
 # Fixture pour une instance d'Etudiant
 @pytest.fixture
 def etudiant():
-    return Etudiant("Dupont", "Jean", 22, "")
+    return Etudiant("Dupont", "Jeanne", 22, "")
 
 
 class TestClasse:
